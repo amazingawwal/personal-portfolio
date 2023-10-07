@@ -1,0 +1,22 @@
+#header{
+    background-color: rgb(76, 75, 75);
+    width: 100%;
+    display: flex;
+      
+}
+
+#name{
+    background-color:rgb(170, 248, 239);
+    width: 17%;
+    height: 100%;
+    padding-left: 3%;
+    justify-content:right;
+   
+}
+
+header > nav{
+    position: relative;
+    left: 500px;
+    top: 12 px;
+    color: rgb(170, 248, 239);
+}

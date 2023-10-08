@@ -45,7 +45,115 @@ nav > a{
     right:4%
     
 }
-   
+ /*used flexbox to style the main page to column*/
+.page-wrapper{
+    display: flex;
+    flex-direction: column;
+    padding-left: 8rem;
+    padding-right: 3rem;
+}
+/*used flexbox to style the about me section to row,
+ to set the items side by side*/
+#about{
+    display: flex;
+    position: relative;
+}
+
+.page-section{
+    display: flex;
+    
+}
+
+
+#about p{
+    position: relative;
+    left: 2%;
+    width:96%;
+    /*border-top: .2rem solid rgb(170, 248, 239);*/
+    padding-left: 1rem;
+}
+
+.page-wrapper h2{
+    text-align: right;
+    border-right: 0.2rem solid black;
+    padding-right:0.5rem ;
+}
+
+.project-images{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 25% 25%;
+    grid-gap: 1rem;
+    grid-template-areas:
+    "project1 project1"
+    "project2 project3"
+    "project4 project5";
+}
+
+#project1 {
+    grid-area: project1;
+    width: 100%;
+    height: 100%;
+}
+
+#project1 img{
+    width: 100%;
+    height: 100%;
+    border: .2rem solid rgb(170, 248, 239);
+    position: relative;
+}
+/*#projectParagraph{
+    display: inline-flex;
+    flex-direction: column;
+    background-color: rgb(170, 248, 239);
+    position: relative;
+}
+#project1 p{
+    position: absolute;
+    bottom: -20%;
+    left: .5%;
+}*/
+
+#project2{
+    grid-area: project2;
+    width: 100%;
+    height: 100%;
+}
+#project2 img{
+    width: 100%;
+    height: 100%;
+    border: .2rem solid rgb(170, 248, 239);
+}
+#project3{
+    grid-area: project3;
+    width: 100%;
+    height: 100%;
+}
+#project3 img{
+    width: 100%;
+    height: 100%;
+    border: .2rem solid rgb(170, 248, 239);
+}
+#project4{
+    grid-area: project4;
+    width: 100%;
+    height: 100%;
+}
+#project4 img{
+    width: 100%;
+    height: 100%;
+    border: .2rem solid rgb(170, 248, 239);
+}
+#project5{
+    grid-area: project5;
+    width: 100%;
+    height: 100%;
+}
+#project5 img{
+    width: 100%;
+    height: 100%;
+    border: .2rem solid rgb(170, 248, 239);
+}
 
 
 

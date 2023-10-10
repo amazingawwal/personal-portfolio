@@ -25,6 +25,7 @@ height: 3rem;
 }
 nav > a{
     color: rgb(170, 248, 239);
+    text-decoration-thickness: 5px;
 }
 
 #hero{
@@ -71,6 +72,7 @@ nav > a{
 /*This made each section header and content to row format*/
 .page-section{
     display: flex;
+    flex-direction: row;
     }
 
 /*This made the about me page move to the left */
